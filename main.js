@@ -8,7 +8,7 @@ const server = express()
 const streamkey = 'wk7s-yxz0-ama6-amsm-8ygh';
 
 // Generate array of video files from 1 to 121
-const videoFiles = Array.from({ length: 8 }, (_, i) => `${i + 1}.mp4`);
+const videoFiles = Array.from({ length: 9 }, (_, i) => `${i + 1}.mp4`);
 let currentVideoIndex = 0;
 
 // Function to check if video file exists
